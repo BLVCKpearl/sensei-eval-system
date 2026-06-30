@@ -149,13 +149,20 @@ Critical rule:
 
 Before adding a team profile link:
 
+- verify the person appears on the official project/team/company source, or in a reliable project-linked source
 - verify the profile opens or appears in reliable search results
 - verify the profile belongs to the correct person
-- verify the profile is connected to the project or has a credible role match
+- verify the profile ties to the project directly, either through the profile role, official company page, official team page, or project-linked post
 
-If a LinkedIn or team profile cannot be verified, write:
+Do not treat a quick failed search as proof that no profile exists.
 
-> LinkedIn: not verified
+Use these verification labels accurately:
+
+- `Verified:` only when the link leads to the right person and ties to the project.
+- `LinkedIn: not verified` only after checking official team context plus direct/profile-level search.
+- `LinkedIn: not independently verified in-tool` when a plausible/profile link exists from the user or another source but the tool cannot confirm it fully due to access limits.
+
+If the user provides a direct LinkedIn URL and the official project page confirms the same person and role, include the link and state the basis clearly rather than marking it as not verified.
 
 Do not pad the team section with broken links.
 
@@ -173,7 +180,7 @@ For unverifiable members:
 ```markdown
 ➢ Luca Pagano — Head of Markets / Markets Team  
 Mentioned in Roxom-related public materials as Head of Markets.  
-LinkedIn: not verified.
+LinkedIn: not verified after official team-source and direct/profile-level search.
 ```
 
 ## 7. Source Handling and Verification Rules
@@ -434,7 +441,7 @@ Keep factual. Include launch year, sector, description, and mission.
 
 ### Team
 
-This is one of the most important sections. Include verified team links when possible. No fake or guessed links.
+This is one of the most important sections. Include verified team links when possible. No fake or guessed links. Do not label a team member as not verified unless official context and direct/profile-level search were both checked.
 
 ### Company
 
@@ -525,13 +532,15 @@ For every L1 eval:
 6. Always include team profile links where available.
 7. Verify team links before adding them.
 8. Do not include guessed LinkedIn links.
-9. Use LinkedIn: not verified when a profile cannot be verified.
-10. Keep the established L1 structure.
-11. Use clear decision labels.
-12. Prioritize partnership suitability, audience safety, and reputational risk.
-13. Be blunt about red flags.
-14. For high-risk products, recommend education-first framing or decline.
-15. The final decision must be obvious.
+9. Do not use LinkedIn: not verified unless official context and direct/profile-level search were checked.
+10. Use LinkedIn: not independently verified in-tool when access limitations prevent full confirmation.
+11. If the user provides a profile link and official project context confirms the same person/role, include the link and explain the basis.
+12. Keep the established L1 structure.
+13. Use clear decision labels.
+14. Prioritize partnership suitability, audience safety, and reputational risk.
+15. Be blunt about red flags.
+16. For high-risk products, recommend education-first framing or decline.
+17. The final decision must be obvious.
 
 ## 18. Final Principle
 
