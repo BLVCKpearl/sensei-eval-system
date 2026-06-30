@@ -73,17 +73,17 @@ Conclusion: [Short judgement]
 ● Team Consistency: [Alignment across official site, company records, LinkedIn profiles, public documents]
 ● Company Overview: [Founding date, HQ/jurisdiction, offices, size, operating model, regulatory posture if relevant]
 ● CEO / Founder [Name]:
-   ○ [Achievement, background, or strength]
-   ○ [Achievement, background, or strength]
-   ○ LinkedIn: [link OR LinkedIn not found]
+    ○ [Achievement, background, or strength]
+    ○ [Achievement, background, or strength]
+    ○ LinkedIn: [link OR LinkedIn not found]
 ● CTO / Technical Lead [Name]:
-   ○ [Achievement, background, or strength]
-   ○ [Achievement, background, or strength]
-   ○ LinkedIn: [link OR LinkedIn not found]
+    ○ [Achievement, background, or strength]
+    ○ [Achievement, background, or strength]
+    ○ LinkedIn: [link OR LinkedIn not found]
 ● [Other Key Leader] [Name]:
-   ○ [Achievement, background, or strength]
-   ○ [Achievement, background, or strength]
-   ○ LinkedIn: [link OR LinkedIn not found]
+    ○ [Achievement, background, or strength]
+    ○ [Achievement, background, or strength]
+    ○ LinkedIn: [link OR LinkedIn not found]
 ● Vision: [Short vision statement]
 ● Problem/Solution: [Short problem and solution statement]
 
@@ -258,17 +258,17 @@ Use this structure:
 ● Team Consistency: Confirmed alignment between official website documentation, corporate filings, and professional LinkedIn profiles.
 ● Company Overview: Founded in [year] and headquartered in [location], with [team size / offices / operating model].
 ● CEO [Name]:
-   ○ [1 achievement or strength]
-   ○ [1 achievement or strength]
-   ○ LinkedIn: [link OR LinkedIn not found]
+    ○ [1 achievement or strength]
+    ○ [1 achievement or strength]
+    ○ LinkedIn: [link OR LinkedIn not found]
 ● CTO [Name]:
-   ○ [1 achievement or strength]
-   ○ [1 achievement or strength]
-   ○ LinkedIn: [link OR LinkedIn not found]
+    ○ [1 achievement or strength]
+    ○ [1 achievement or strength]
+    ○ LinkedIn: [link OR LinkedIn not found]
 ● COO / CMO / Compliance Lead / Head of Markets [Name]:
-   ○ [1 achievement or strength]
-   ○ [1 achievement or strength]
-   ○ LinkedIn: [link OR LinkedIn not found]
+    ○ [1 achievement or strength]
+    ○ [1 achievement or strength]
+    ○ LinkedIn: [link OR LinkedIn not found]
 ● Vision: [Short vision]
 ● Problem/Solution: [Short problem/solution]
 
@@ -279,6 +279,10 @@ Conclusion: [Short judgement]
 
 Rules:
 
+- First-level bullets use `●`.
+- Second-level bullets must be visually indented to the right and use the smaller `○` bullet.
+- In Markdown, second-level bullets must start with **4 spaces** before `○`.
+- Do not flush second-level bullets with first-level bullets.
 - Include LinkedIn links for all key leaders where found.
 - If no LinkedIn is found, write exactly: `LinkedIn not found`.
 - Each team member should have **1–2 bullets** on achievements, background, strengths, or strategic relevance.
@@ -430,15 +434,17 @@ For every L2 eval:
 4. Include a total score out of 30.
 5. Use clear decision labels: APPROVED, SOFT APPROVED, DECLINED, HARD DECLINE.
 6. Team section must follow the L2 bullet format from the reference files.
-7. Team members should have 1–2 achievement/strength bullets plus LinkedIn link.
-8. If no LinkedIn is found, write exactly: `LinkedIn not found`.
-9. Include team profile links where available; never guess links.
-10. Do not add external reference links in the body except team LinkedIn links.
-11. Mention source names plainly instead of linking them in the eval body.
-12. Do not mention XRP unless the project is XRP/XRPL-related or the user asks for XRP alignment.
-13. Be stricter with high-risk financial products.
-14. Never casually promote leverage, yield, lending, or tokenized securities.
-15. Final recommendation must protect Sensei’s reputation first.
+7. First-level bullets use `●`; second-level bullets use indented `○`.
+8. Second-level bullets must be indented right with 4 leading spaces in Markdown.
+9. Team members should have 1–2 achievement/strength bullets plus LinkedIn link.
+10. If no LinkedIn is found, write exactly: `LinkedIn not found`.
+11. Include team profile links where available; never guess links.
+12. Do not add external reference links in the body except team LinkedIn links.
+13. Mention source names plainly instead of linking them in the eval body.
+14. Do not mention XRP unless the project is XRP/XRPL-related or the user asks for XRP alignment.
+15. Be stricter with high-risk financial products.
+16. Never casually promote leverage, yield, lending, or tokenized securities.
+17. Final recommendation must protect Sensei’s reputation first.
 
 ---
 
@@ -451,6 +457,7 @@ Examples of rules that should be added immediately:
 - section structure changes
 - scoring changes
 - team-format rules
+- bullet indentation rules
 - link-format rules
 - page-length constraints
 - tone changes
