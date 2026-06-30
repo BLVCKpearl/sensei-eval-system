@@ -1,6 +1,6 @@
 # Crypto Sensei L1 Evaluation Guidelines
 
-This document is the source of truth for creating L1 project evaluations for Crypto Sensei / Sensei Project Evaluations. It is a living document and should be updated whenever the evaluation standard changes.
+This document is the source of truth for creating L1 project evaluations for Crypto Sensei / Sensei Project Evaluations. It is a living document and must be updated whenever the evaluation standard changes.
 
 ## 1. Purpose
 
@@ -22,6 +22,8 @@ Rules:
 - Do not use a scoring system for L1 reviews.
 - Do not turn an L1 into an L2 deep dive unless explicitly requested.
 - Include enough detail to support the decision without over-explaining.
+- Pros, Cons, Synergies, Negative Synergies, and Content / Partnership Offerings should not exceed 4 bullet points each.
+- Keep the Evaluation section short and decision-driven.
 
 ## 3. Required L1 Structure
 
@@ -41,7 +43,7 @@ Mission:
 
 ➢ [Name] — [Role]
 [Short profile summary]
-LinkedIn: [verified link OR not verified]
+LinkedIn: [verified link OR LinkedIn not found]
 
 ## Company
 
@@ -52,6 +54,7 @@ LinkedIn: [verified link OR not verified]
 ● [Unique quality 1]
 ● [Unique quality 2]
 ● [Unique quality 3]
+● [Unique quality 4 max]
 
 ## Partnership Assessment
 
@@ -60,26 +63,35 @@ LinkedIn: [verified link OR not verified]
 ★ [Pro 1]
 ★ [Pro 2]
 ★ [Pro 3]
+★ [Pro 4 max]
 
 ### Cons
 
 ➢ [Con 1]
 ➢ [Con 2]
 ➢ [Con 3]
+➢ [Con 4 max]
 
 ## Synergies
 
-● [Positive strategic/audience/content alignment]
+● [Positive strategic/audience/content alignment 1]
+● [Positive strategic/audience/content alignment 2]
+● [Positive strategic/audience/content alignment 3]
+● [Positive strategic/audience/content alignment 4 max]
 
 ## Negative Synergies
 
-● [Audience mismatch, compliance risk, product risk, reputation risk]
+● [Audience mismatch, compliance risk, product risk, reputation risk 1]
+● [Risk 2]
+● [Risk 3]
+● [Risk 4 max]
 
 ## Content / Partnership Offerings
 
 ❖ [Campaign/content idea 1]
 ❖ [Campaign/content idea 2]
 ❖ [Campaign/content idea 3]
+❖ [Campaign/content idea 4 max]
 
 ## Status of Socials
 
@@ -87,7 +99,7 @@ LinkedIn: [verified link OR not verified]
 
 ## Evaluation
 
-[Final analysis and decision]
+[Short final analysis and decision]
 
 Decision: [APPROVED / SOFT APPROVED / DECLINED / HARD DECLINE]
 ```
@@ -137,15 +149,20 @@ Avoid:
 Exception:
 
 - Team profile links are allowed and should be included where verified.
-- Required file citations may still appear when using uploaded reference files.
+- Required file citations may still appear when using uploaded reference files or GitHub source files.
 
-## 6. Team Profile Link Rule
+## 6. Team Profile Link and Format Rule
 
 Always include team profile links where available, preferably LinkedIn.
 
-Critical rule:
+Critical rules:
 
-> Never add guessed, pattern-generated, or unverified LinkedIn URLs.
+- Never add guessed, pattern-generated, or unverified LinkedIn URLs.
+- Do not treat a quick failed search as proof that no profile exists.
+- If a LinkedIn profile is found and tied to the project/person, include it.
+- If no LinkedIn profile is found after checking official team context and direct/profile-level search, write exactly: `LinkedIn not found`.
+- Do not write anything after the LinkedIn line in the Team section.
+- Do not add “Verified:” lines, source notes, or explanations after the LinkedIn line.
 
 Before adding a team profile link:
 
@@ -154,33 +171,20 @@ Before adding a team profile link:
 - verify the profile belongs to the correct person
 - verify the profile ties to the project directly, either through the profile role, official company page, official team page, or project-linked post
 
-Do not treat a quick failed search as proof that no profile exists.
-
-Use these verification labels accurately:
-
-- `Verified:` only when the link leads to the right person and ties to the project.
-- `LinkedIn: not verified` only after checking official team context plus direct/profile-level search.
-- `LinkedIn: not independently verified in-tool` when a plausible/profile link exists from the user or another source but the tool cannot confirm it fully due to access limits.
-
-If the user provides a direct LinkedIn URL and the official project page confirms the same person and role, include the link and state the basis clearly rather than marking it as not verified.
-
-Do not pad the team section with broken links.
-
-Preferred format:
+Required team format:
 
 ```markdown
 ➢ Borja Martel Seward — Co-Founder & CEO  
-Former Co-Founder at Lemon Cash; currently Co-Founder/CEO at Roxom. Strong founder-market fit in crypto consumer products and Bitcoin adoption.  
-LinkedIn: https://ar.linkedin.com/in/borja-martel  
-Verified: Profile opens and shows Roxom affiliation.
+Official Roxom team page confirms Borja Martel Seward as Co-Founder & CEO. Public-facing founder and one of the strongest trust anchors for the project.  
+LinkedIn: https://ar.linkedin.com/in/borja-martel
 ```
 
-For unverifiable members:
+For team members with no found LinkedIn:
 
 ```markdown
-➢ Luca Pagano — Head of Markets / Markets Team  
-Mentioned in Roxom-related public materials as Head of Markets.  
-LinkedIn: not verified after official team-source and direct/profile-level search.
+➢ Tomas Milberg — VP of Operations  
+Official Roxom team page confirms Tomas Milberg as VP of Operations.  
+LinkedIn not found
 ```
 
 ## 7. Source Handling and Verification Rules
@@ -441,7 +445,7 @@ Keep factual. Include launch year, sector, description, and mission.
 
 ### Team
 
-This is one of the most important sections. Include verified team links when possible. No fake or guessed links. Do not label a team member as not verified unless official context and direct/profile-level search were both checked.
+Use the required Team format exactly. Include the profile link when found. If no profile is found, write `LinkedIn not found`. Do not add anything after the LinkedIn line.
 
 ### Company
 
@@ -453,27 +457,27 @@ Example:
 
 ### Unique Qualities
 
-Focus on what makes the project different, not generic marketing claims.
+Focus on what makes the project different, not generic marketing claims. Maximum 4 bullets.
 
 ### Partnership Assessment
 
-Use pros/cons that matter to partnership risk and campaign fit.
+Use pros/cons that matter to partnership risk and campaign fit. Maximum 4 pros and 4 cons.
 
 ### Synergies / Negative Synergies
 
-Make this specific to Sensei’s audience and brand.
+Make this specific to Sensei’s audience and brand. Maximum 4 bullets each.
 
 ### Content / Partnership Offerings
 
-Suggest realistic content routes. For risky products, prioritize education-first campaigns.
+Suggest realistic content routes. For risky products, prioritize education-first campaigns. Maximum 4 bullets.
 
 ### Status of Socials
 
-Assess awareness, engagement, sentiment, and authenticity. Do not overdo links.
+Assess awareness, engagement, sentiment, and authenticity. Keep it short.
 
 ### Evaluation
 
-This is the most important section. Give a final analyst judgement with the reasoning behind the decision. Do not hedge unnecessarily.
+This is the most important section. Keep it short, final, and decision-driven.
 
 ## 15. Default Campaign Framing by Risk Level
 
@@ -532,9 +536,9 @@ For every L1 eval:
 6. Always include team profile links where available.
 7. Verify team links before adding them.
 8. Do not include guessed LinkedIn links.
-9. Do not use LinkedIn: not verified unless official context and direct/profile-level search were checked.
-10. Use LinkedIn: not independently verified in-tool when access limitations prevent full confirmation.
-11. If the user provides a profile link and official project context confirms the same person/role, include the link and explain the basis.
+9. If no LinkedIn is found, write exactly: LinkedIn not found.
+10. Do not add anything after the LinkedIn line in the Team section.
+11. Pros, Cons, Synergies, Negative Synergies, and Content / Partnership Offerings must not exceed 4 bullets each.
 12. Keep the established L1 structure.
 13. Use clear decision labels.
 14. Prioritize partnership suitability, audience safety, and reputational risk.
