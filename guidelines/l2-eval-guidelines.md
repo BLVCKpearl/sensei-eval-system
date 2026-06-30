@@ -313,11 +313,11 @@ The body of the evaluation should stay clean and copy-friendly.
 
 Rules:
 
-- Do not overload the eval with clickable external reference links.
+- Do not add clickable external reference links throughout the eval body.
 - Mention source names plainly where useful: official website, CoinDesk, LinkedIn, Crunchbase, regulator registry, etc.
-- Team LinkedIn links are allowed and should be included.
-- If system-required citations are needed in chat output, keep them as light as possible while staying compliant.
+- Team LinkedIn links are the only external links that should appear inside the evaluation body.
 - Do not include raw URL dumps in Company, Tech, Social, or Evaluation sections.
+- If system-required citations are needed in chat output, keep them outside or as light as possible while staying compliant.
 
 ---
 
@@ -433,11 +433,12 @@ For every L2 eval:
 7. Team members should have 1–2 achievement/strength bullets plus LinkedIn link.
 8. If no LinkedIn is found, write exactly: `LinkedIn not found`.
 9. Include team profile links where available; never guess links.
-10. Do not overload the eval body with external reference hyperlinks.
-11. Do not mention XRP unless the project is XRP/XRPL-related or the user asks for XRP alignment.
-12. Be stricter with high-risk financial products.
-13. Never casually promote leverage, yield, lending, or tokenized securities.
-14. Final recommendation must protect Sensei’s reputation first.
+10. Do not add external reference links in the body except team LinkedIn links.
+11. Mention source names plainly instead of linking them in the eval body.
+12. Do not mention XRP unless the project is XRP/XRPL-related or the user asks for XRP alignment.
+13. Be stricter with high-risk financial products.
+14. Never casually promote leverage, yield, lending, or tokenized securities.
+15. Final recommendation must protect Sensei’s reputation first.
 
 ---
 
