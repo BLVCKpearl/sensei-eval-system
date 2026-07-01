@@ -24,6 +24,8 @@ Rules:
 - Be concise but decisive.
 - Do not mention XRP unless the project itself supports XRP, is building on XRP/XRPL, or XRP relevance is directly evidenced.
 - Do not add generic external reference hyperlinks throughout the writeup.
+- Do not include research/reference/source links in the final L1 evaluation body.
+- Pros, Cons, Synergies, Negative Synergies, and Content / Partnership Offerings must not exceed 4 bullet points per section.
 - Team profile links are allowed and encouraged when verified.
 - Never guess LinkedIn URLs. If a team profile cannot be verified, write `LinkedIn: not verified`.
 - If public information is weak, say so plainly.
@@ -60,6 +62,8 @@ Rules:
 - Keep the final exported Google Doc / Word version to a maximum of 4 pages.
 - Use scoring.
 - Keep conclusions concise but analytical.
+- Do not include research/reference/source links in the final L2 evaluation body.
+- Pros, Cons, Synergies, Negative Synergies, Content / Partnership Offerings, Red Flags, Green Flags, Questions / Inquiries, and Services to Offer / Marketing Alignment must not exceed 4 bullet points per section where used.
 
 Preferred L2 structure:
 
@@ -119,6 +123,7 @@ Preferred L2 structure:
 - Verify that profile links work and correspond to the correct person and project.
 - Do not include guessed, pattern-generated, or broken LinkedIn links.
 - If a profile cannot be verified, write `LinkedIn: not verified`.
+- Do not include research/reference/source links in L1 or L2 evaluation deliverables.
 - Avoid external reference hyperlinks in the written output except verified team profile links, unless the user explicitly requests citations/links.
 
 ## Research Rules
