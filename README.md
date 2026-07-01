@@ -26,8 +26,8 @@ Rules:
 - Do not add generic external reference hyperlinks throughout the writeup.
 - Do not include research/reference/source links in the final L1 evaluation body.
 - Pros, Cons, Synergies, Negative Synergies, and Content / Partnership Offerings must not exceed 4 bullet points per section.
-- Team profile links are allowed and encouraged when verified.
-- Never guess LinkedIn URLs. If a team profile cannot be verified, write `LinkedIn: not verified`.
+- Team profile links are allowed and encouraged when they exist and are publicly accessible.
+- Never guess LinkedIn URLs. If a team profile cannot be found or is not publicly accessible, write `LinkedIn: not found`.
 - If public information is weak, say so plainly.
 
 Preferred L1 structure:
@@ -119,12 +119,12 @@ Preferred L2 structure:
 
 ## Link Rules
 
-- Include verified team profile links where available, preferably LinkedIn.
-- Verify that profile links work and correspond to the correct person and project.
+- Include team profile links where available, preferably LinkedIn.
+- Team profile links only need to exist and be publicly accessible; they do not need deeper verification beyond accessibility.
 - Do not include guessed, pattern-generated, or broken LinkedIn links.
-- If a profile cannot be verified, write `LinkedIn: not verified`.
+- If a profile cannot be found or is not publicly accessible, write `LinkedIn: not found`.
 - Do not include research/reference/source links in L1 or L2 evaluation deliverables.
-- Avoid external reference hyperlinks in the written output except verified team profile links, unless the user explicitly requests citations/links.
+- Avoid external reference hyperlinks in the written output except publicly accessible team profile links, unless the user explicitly requests citations/links.
 
 ## Research Rules
 
@@ -132,7 +132,7 @@ Preferred L2 structure:
 - Separate verified facts from claims made by the project.
 - Flag uncertainty directly.
 - Never invent registrations, licenses, funding rounds, team members, or partnerships.
-- Treat high yield, custodial funds, no-KYC claims, offshore registrations, anonymous teams, and withdrawal complaints as major risk areas.
+- Treat legal opacity, anonymous teams, unclear controls, and unresolved user complaints as major risk areas.
 
 ## Decision Language
 
