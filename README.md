@@ -144,3 +144,33 @@ Use one of these final outcomes exactly as written:
 - Declined
 
 Use direct language. The goal is to protect Crypto Sensei’s audience and brand while identifying useful partnership opportunities.
+
+## Google Docs Exporter
+
+The repository includes an optional exporter that adds each completed L1 or L2 report as a new tab in the existing Sensei Google Doc.
+
+Location:
+
+```text
+integrations/google-docs-exporter/
+├── Code.gs
+├── appsscript.json
+├── openapi.yaml
+├── SETUP.md
+└── skill-export-addon.md
+```
+
+Capabilities:
+
+- Creates `[Project Name] L1` or `[Project Name] L2` tabs.
+- Never overwrites an existing tab.
+- Adds `- 2`, `- 3`, and later suffixes for duplicates.
+- Inserts only the finished report.
+- Preserves heading hierarchy, bold text, and Markdown links.
+- Returns a direct link to the new Google Docs tab.
+
+Deployment and Custom GPT Action instructions are in:
+
+`integrations/google-docs-exporter/SETUP.md`
+
+A standard ChatGPT Project can use the evaluation skill and reference files, but automatic HTTP export requires an action-capable surface such as a private Custom GPT with the included Action schema.
