@@ -49,7 +49,7 @@ Preferred L1 structure:
 6. Content / Partnership Offerings
 7. Status of Socials
 8. Evaluation
-   - Clear final decision: APPROVED, SOFT APPROVED, DECLINED, HARD DECLINE, or REJECTED.
+   - Clear final decision: Soft approve, Strongly approved, Soft Decline, or Declined.
 
 ### L2 Evaluation — Deep-Dive Analysis
 
@@ -136,13 +136,11 @@ Preferred L2 structure:
 
 ## Decision Language
 
-Use one of these final outcomes:
+Use one of these final outcomes exactly as written:
 
-- STRONGLY APPROVED
-- APPROVED
-- SOFT APPROVED
-- DECLINED
-- HARD DECLINE
-- REJECTED
+- Soft approve
+- Strongly approved
+- Soft Decline
+- Declined
 
 Use direct language. The goal is to protect Crypto Sensei’s audience and brand while identifying useful partnership opportunities.
