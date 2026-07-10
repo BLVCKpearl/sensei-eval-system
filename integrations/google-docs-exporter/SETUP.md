@@ -36,7 +36,19 @@ The existing ChatGPT Project can continue to be the working knowledge base, but 
 5. Enable **Show "appsscript.json" manifest file in editor**.
 6. Replace the generated manifest with the contents of `appsscript.json` from this folder.
 
-## 2. Configure Script Properties
+## 2. Enable the Google Docs API
+
+The script calls the Google Docs REST API directly.
+
+1. In Apps Script, open **Project Settings**.
+2. Under **Google Cloud Platform (GCP) Project**, open the linked Cloud project.
+3. Open **APIs & Services → Library**.
+4. Search for **Google Docs API**.
+5. Click **Enable**.
+
+If the Apps Script project is using a Google-managed default Cloud project and you cannot open it, switch the script to a standard Google Cloud project first, then enable the Google Docs API in that project.
+
+## 3. Configure Script Properties
 
 In **Project Settings → Script Properties**, add:
 
@@ -53,7 +65,7 @@ openssl rand -hex 32
 
 Do not commit the real secret to GitHub.
 
-## 3. Authorize the script
+## 4. Authorize the script
 
 1. In Apps Script, select the `doGet` function.
 2. Click **Run**.
@@ -65,7 +77,7 @@ The manifest requests only:
 - Google Docs document access.
 - External HTTP requests, required to call the Google Docs API from Apps Script.
 
-## 4. Deploy as a web app
+## 5. Deploy as a web app
 
 1. Click **Deploy → New deployment**.
 2. Choose **Web app**.
@@ -80,7 +92,7 @@ https://script.google.com/macros/s/DEPLOYMENT_ID/exec
 
 The endpoint is public at the network level but rejects requests without the configured shared secret.
 
-## 5. Test the endpoint
+## 6. Test the endpoint
 
 Replace the URL and secret below:
 
@@ -110,7 +122,7 @@ Expected response:
 
 Delete the test tab manually after verification.
 
-## 6. Configure a private Custom GPT Action
+## 7. Configure a private Custom GPT Action
 
 1. Create or edit a private Custom GPT.
 2. Upload the same Sensei skill and reference files used in the ChatGPT Project.
@@ -127,7 +139,7 @@ with the Apps Script deployment ID.
 7. Add the instructions from `skill-export-addon.md` to the GPT instructions or the skill package.
 8. Test the action in Preview.
 
-## 7. Secret handling note
+## 8. Secret handling note
 
 Apps Script web apps do not expose arbitrary request headers to `doPost(e)`, so this implementation validates a shared secret inside the JSON body.
 
@@ -135,7 +147,7 @@ For a personal, private GPT this is acceptable. Do not publish the GPT or expose
 
 For a public or multi-user product, replace Apps Script with a proper backend such as Cloud Run, Vercel, or AWS Lambda and use header-based authentication plus per-user authorization.
 
-## 8. Updating the deployment
+## 9. Updating the deployment
 
 After changing `Code.gs`:
 
@@ -154,7 +166,7 @@ The `sharedSecret` sent by the action does not exactly match `EXPORTER_SHARED_SE
 
 ### `Google Docs API error (403)`
 
-The Apps Script execution account does not have edit access to the target document, or the authorization scopes were not approved.
+The Apps Script execution account does not have edit access to the target document, the Google Docs API is not enabled in the linked Cloud project, or the authorization scopes were not approved.
 
 ### The report appears in the first tab
 
