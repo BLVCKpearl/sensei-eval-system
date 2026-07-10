@@ -140,7 +140,7 @@ Strategic alignment would require:
 ● [Condition 3]
 ● [Condition 4 max]
 
-Decision: [APPROVED / SOFT APPROVED / DECLINED / HARD DECLINE]
+Decision: [Soft approve / Strongly approved / Soft Decline / Declined]
 ```
 
 ---
@@ -159,12 +159,28 @@ Decision: [APPROVED / SOFT APPROVED / DECLINED / HARD DECLINE]
 
 ## 4. Decision Labels
 
-Use one final decision label:
+Use one final decision label exactly as written:
 
-- APPROVED
-- SOFT APPROVED
-- DECLINED
-- HARD DECLINE
+- Soft approve
+- Strongly approved
+- Soft Decline
+- Declined
+
+### Soft approve
+
+Use when the project has real value and can move forward, but only with additional verification, tighter campaign scope, explicit conditions, or stronger risk controls.
+
+### Strongly approved
+
+Use when the project is credible, strategically aligned, useful to the audience, and partnership-worthy with only manageable risks.
+
+### Soft Decline
+
+Use when the project should not proceed in its current form because of fit, transparency, execution, or risk concerns, but could be reconsidered if specific weaknesses are resolved.
+
+### Declined
+
+Use when there are major legitimacy, user-safety, legal, reputational, deception, or severe viability concerns, or when the partnership is clearly unsuitable.
 
 ---
 
