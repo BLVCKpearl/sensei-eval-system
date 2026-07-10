@@ -1,0 +1,79 @@
+openapi: 3.1.0
+info:
+  title: Sensei Google Docs Exporter
+  version: 1.0.0
+  description: Adds a completed Sensei L1 or L2 evaluation as a new tab in the configured Google Doc.
+servers:
+  - url: https://script.google.com/macros/s/REPLACE_WITH_DEPLOYMENT_ID
+paths:
+  /exec:
+    post:
+      operationId: exportSenseiEvaluation
+      summary: Export a completed Sensei evaluation to Google Docs
+      description: Creates a uniquely named Google Docs tab and inserts the final report with basic heading, bold, and link formatting.
+      x-openai-isConsequential: true
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: false
+              required:
+                - sharedSecret
+                - projectName
+                - evaluationType
+                - decision
+                - reportMarkdown
+              properties:
+                sharedSecret:
+                  type: string
+                  description: Private exporter secret configured in Apps Script Script Properties.
+                projectName:
+                  type: string
+                  minLength: 1
+                  maxLength: 120
+                  description: Project name only, without L1 or L2 suffix.
+                evaluationType:
+                  type: string
+                  enum: [L1, L2]
+                decision:
+                  type: string
+                  enum:
+                    - Soft approve
+                    - Strongly approved
+                    - Soft Decline
+                    - Declined
+                reportMarkdown:
+                  type: string
+                  minLength: 1
+                  maxLength: 100000
+                  description: Final report only. Exclude research notes, citations, source lists, and internal reasoning.
+      responses:
+        '200':
+          description: Export result
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [ok]
+                properties:
+                  ok:
+                    type: boolean
+                  projectName:
+                    type: string
+                  evaluationType:
+                    type: string
+                  decision:
+                    type: string
+                  tabTitle:
+                    type: string
+                  tabId:
+                    type: string
+                  documentId:
+                    type: string
+                  documentUrl:
+                    type: string
+                    format: uri
+                  error:
+                    type: string
